@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
         elevation: 0,
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
+        
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
             const SizedBox(height: 60,),

@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_unnecessary_containers
+
 import 'dart:async';
 
 import 'package:flutter/material.dart';
@@ -13,7 +15,7 @@ class Splash extends StatefulWidget {
 
 class _SplashState extends State<Splash> {
   startTimer() {
-    Timer(const Duration(seconds: 6), () async {
+    Timer(const Duration(seconds: 5), () async {
       Navigator.push(
           context, MaterialPageRoute(builder: (context) => const HomePage()));
     });
@@ -28,8 +30,15 @@ class _SplashState extends State<Splash> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        child: Center(
-          child: Lottie.asset("lib/assets/doc.json"),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+             const Text("Shifokor UZ",style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold),),
+            Center(
+              child: Lottie.asset("lib/assets/doc.json"),
+            ),
+            
+          ],
         ),
       ),
     );
