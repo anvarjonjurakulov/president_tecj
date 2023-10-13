@@ -6,7 +6,8 @@ class Koja extends StatefulWidget {
   @override
   State<Koja> createState() => _KojaState();
 }
-//////////////////////////////////////
+////////////////////////////////////// 
+//////// Diyor zor 
 class _KojaState extends State<Koja> {
   @override
   Widget build(BuildContext context) {
