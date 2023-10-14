@@ -43,9 +43,9 @@ class _GlazState extends State<Glaz> {
               });
             },
             tabs: const [
-              GButton(icon: Icons.photo_camera,text: 'Main', ),
-              GButton(icon: Icons.quiz,text: 'Quiz',),
-              GButton(icon: Icons.info,text: 'Info',),
+              GButton(icon: Icons.photo_camera,text: 'Камера', ),
+              GButton(icon: Icons.quiz,text: 'Опросник',),
+              GButton(icon: Icons.info,text: 'Информация',),
             ],
           ),
         ),

@@ -11,10 +11,11 @@ class _MainState extends State<Main> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Глазной"),
+      appBar: AppBar(backgroundColor: Colors.blue.shade200,
+        title: const Text("Глазной",style: TextStyle(color: Colors.white),),
+        centerTitle: true,
       ),
-      body: Center(child: Text("dsjdbsjfa"),),
+      body: const Center(child: Text("dsjdbsjfa"),),
     );
   }
 }
