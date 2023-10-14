@@ -40,17 +40,18 @@ class _HomePageState extends State<HomePage> {
                   height: 60,
                 ),
                 Container(
-                    padding: const EdgeInsets.all(40),
-                    margin: const EdgeInsets.symmetric(horizontal: 50),
-                    decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 4, 129, 232),
-                      borderRadius: BorderRadius.circular(25),
-                      border: Border.all(color: Colors.blueAccent),
-                    ),
-                    child: GestureDetector(
-                      onTap: () => Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => const Glaz())),
-                      child:  const Text(
+                  padding: const EdgeInsets.all(30),
+                  margin: const EdgeInsets.symmetric(horizontal: 50),
+                  decoration: BoxDecoration(
+                    color: const Color.fromARGB(255, 4, 129, 232),
+                    borderRadius: BorderRadius.circular(25),
+                    border: Border.all(color: Colors.blueAccent),
+                  ),
+                  child: GestureDetector(
+                    onTap: () => Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => const Glaz())),
+                    child: const Center(
+                      child: Text(
                         " Глазной ",
                         style: TextStyle(
                             color: Colors.white,
@@ -60,13 +61,14 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                   ),
+                ),
                 const SizedBox(
                   height: 30,
                 ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
-                   padding: const EdgeInsets.all(30.0),
+                    padding: const EdgeInsets.all(30.0),
                     margin: const EdgeInsets.symmetric(horizontal: 60.0),
                     decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 4, 129, 232),
@@ -74,8 +76,10 @@ class _HomePageState extends State<HomePage> {
                       border: Border.all(color: Colors.blueAccent),
                     ),
                     child: GestureDetector(
-                      onTap: () => Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => const Koja())),
+                      onTap: () => Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const Koja())),
                       child: const Text(
                         "   Кожa   ",
                         style: TextStyle(
@@ -93,7 +97,7 @@ class _HomePageState extends State<HomePage> {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
-                     padding: const EdgeInsets.all(30),
+                    padding: const EdgeInsets.all(30),
                     margin: const EdgeInsets.symmetric(horizontal: 40),
                     decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 4, 129, 232),
@@ -151,10 +155,10 @@ class _HomePageState extends State<HomePage> {
                 Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
-                     padding: const EdgeInsets.all(30),
+                    padding: const EdgeInsets.all(30),
                     margin: const EdgeInsets.symmetric(horizontal: 60),
                     decoration: BoxDecoration(
-                     color: const Color.fromARGB(255, 4, 129, 232),
+                      color: const Color.fromARGB(255, 4, 129, 232),
                       borderRadius: BorderRadius.circular(25),
                       border: Border.all(color: Colors.blueAccent),
                     ),
@@ -174,16 +178,8 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
-              Padding(
-                padding: const EdgeInsets.all(30),
-                child: Container(
-                  padding: EdgeInsets.all(20),
-                  margin: EdgeInsets.symmetric(horizontal: 30),
-                      color: Colors.blue,
-                      child: const Text("Anvarzorr"),
-                    ),
-              ),
-                
+               
+
                 // ElevatedButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>const Glaz()));}, child:const Text("Глазной")),
                 // const SizedBox(height: 20,),
                 // ElevatedButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>const Koja()));}, child:const Text("Коженный")),
