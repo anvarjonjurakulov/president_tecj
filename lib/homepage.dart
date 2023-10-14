@@ -65,11 +65,9 @@ class _HomePageState extends State<HomePage> {
                 const SizedBox(
                   height: 30,
                 ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    padding: const EdgeInsets.all(30.0),
-                    margin: const EdgeInsets.symmetric(horizontal: 60.0),
+                 Container(
+                    padding: const EdgeInsets.all(30),
+                  margin: const EdgeInsets.symmetric(horizontal: 50),
                     decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 4, 129, 232),
                       borderRadius: BorderRadius.circular(25),
@@ -80,25 +78,25 @@ class _HomePageState extends State<HomePage> {
                           context,
                           MaterialPageRoute(
                               builder: (context) => const Koja())),
-                      child: const Text(
-                        "   Кожa   ",
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 20,
-                            height: 22 / 20,
-                            fontWeight: FontWeight.bold),
+                      child: const Center(
+                        child: Text(
+                          "   Кожa   ",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 20,
+                              height: 22 / 20,
+                              fontWeight: FontWeight.bold),
+                        ),
                       ),
                     ),
                   ),
-                ),
+                
                 const SizedBox(
                   height: 30,
                 ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
+               Container(
                     padding: const EdgeInsets.all(30),
-                    margin: const EdgeInsets.symmetric(horizontal: 40),
+                  margin: const EdgeInsets.symmetric(horizontal: 50),
                     decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 4, 129, 232),
                       borderRadius: BorderRadius.circular(25),
@@ -109,25 +107,25 @@ class _HomePageState extends State<HomePage> {
                           context,
                           MaterialPageRoute(
                               builder: (context) => const Pediator())),
-                      child: const Text(
-                        " Педиатор ",
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 20,
-                            height: 22 / 20,
-                            fontWeight: FontWeight.bold),
+                      child: const Center(
+                        child: Text(
+                          " Педиатор ",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 20,
+                              height: 22 / 20,
+                              fontWeight: FontWeight.bold),
+                        ),
                       ),
                     ),
                   ),
-                ),
+                
                 const SizedBox(
                   height: 30,
                 ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
+                 Container(
                     padding: const EdgeInsets.all(30),
-                    margin: const EdgeInsets.symmetric(horizontal: 40),
+                  margin: const EdgeInsets.symmetric(horizontal: 50),
                     decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 4, 129, 232),
                       borderRadius: BorderRadius.circular(25),
@@ -138,25 +136,25 @@ class _HomePageState extends State<HomePage> {
                           context,
                           MaterialPageRoute(
                               builder: (context) => const Terapeft())),
-                      child: const Text(
-                        " Терапефт ",
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 20,
-                            height: 22 / 20,
-                            fontWeight: FontWeight.bold),
+                      child: const Center(
+                        child: Text(
+                          " Терапефт ",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 20,
+                              height: 22 / 20,
+                              fontWeight: FontWeight.bold),
+                        ),
                       ),
                     ),
                   ),
-                ),
+                
                 const SizedBox(
                   height: 30,
                 ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
+               Container(
                     padding: const EdgeInsets.all(30),
-                    margin: const EdgeInsets.symmetric(horizontal: 60),
+                  margin: const EdgeInsets.symmetric(horizontal: 50),
                     decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 4, 129, 232),
                       borderRadius: BorderRadius.circular(25),
@@ -167,17 +165,19 @@ class _HomePageState extends State<HomePage> {
                           context,
                           MaterialPageRoute(
                               builder: (context) => const Ortoped())),
-                      child: const Text(
-                        " Ортопет ",
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 20,
-                            height: 22 / 20,
-                            fontWeight: FontWeight.bold),
+                      child: const Center(
+                        child: Text(
+                          " Ортопет ",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 20,
+                              height: 22 / 20,
+                              fontWeight: FontWeight.bold),
+                        ),
                       ),
                     ),
                   ),
-                ),
+                
                
 
                 // ElevatedButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>const Glaz()));}, child:const Text("Глазной")),
