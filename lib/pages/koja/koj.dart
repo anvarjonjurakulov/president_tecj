@@ -10,6 +10,23 @@ class Koj extends StatefulWidget {
 class _KojState extends State<Koj> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+       appBar: AppBar(
+        backgroundColor: Colors.blue.shade200,
+        title: const Text(
+          "Кожа",
+          style: TextStyle(
+              color: Colors.white,
+              fontSize: 28,
+              height: 30 / 28,
+              fontWeight: FontWeight.bold
+          ),
+        ),
+        centerTitle: true,
+      ),
+      body: const Center(
+        child: Text("dsjdbsjfa"),
+      ),
+    );
   }
 }
