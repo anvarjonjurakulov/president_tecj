@@ -10,6 +10,8 @@ class Info extends StatefulWidget {
 class _InfoState extends State<Info> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+       body: Center(child: Text("fkgkfda"),),
+    );
   }
 }

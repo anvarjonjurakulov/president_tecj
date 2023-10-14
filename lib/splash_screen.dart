@@ -3,6 +3,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 import 'package:prezident_tech/homepage.dart';
 
@@ -26,18 +27,31 @@ class _SplashState extends State<Splash> {
 
     startTimer();
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
+      backgroundColor: Colors.blue.shade100,
+      body: Center(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-             const Text("Shifokor UZ",style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold),),
+            Text(
+              "Shifokor UZ",
+                style: GoogleFonts.dmSerifDisplay(
+                    color: Colors.black,
+                    fontSize: 35,
+                    height: 35 / 33,
+                    fontWeight: FontWeight.bold
+                    ),
+                  ),
+            const SizedBox(
+              height: 20,
+            ),
             Center(
               child: Lottie.asset("lib/assets/doc.json"),
             ),
-            
           ],
         ),
       ),

@@ -10,6 +10,8 @@ class Quiz extends StatefulWidget {
 class _QuizState extends State<Quiz> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+       body: Center(child: Text("riewhreiuhg"),),
+    );
   }
 }

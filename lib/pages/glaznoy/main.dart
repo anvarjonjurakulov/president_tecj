@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 
+import 'gla.dart';
 import 'info.dart';
 import 'quiz.dart';
 
@@ -15,7 +16,7 @@ class _GlazState extends State<Glaz> {
    int _currerntindex=0;
   final List<Widget> _pages= [
 
-    const Glaz(),
+    const Main(),
     const Quiz(),
     const Info(),
   ];
@@ -23,7 +24,7 @@ class _GlazState extends State<Glaz> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: _pages[_currerntindex],
-      backgroundColor: const Color.fromARGB(255, 128, 217, 237),
+      backgroundColor: Colors.blue.shade100,
       bottomNavigationBar: Container(
         color: Colors.blue.shade100,
         child:   Padding(
