@@ -16,7 +16,7 @@ class Splash extends StatefulWidget {
 
 class _SplashState extends State<Splash> {
   startTimer() {
-    Timer(const Duration(seconds: 5), () async {
+    Timer(const Duration(seconds: 6), () async {
       Navigator.push(
           context, MaterialPageRoute(builder: (context) => const HomePage()));
     });
@@ -40,9 +40,9 @@ class _SplashState extends State<Splash> {
             Text(
               "Shifokor UZ",
                 style: GoogleFonts.dmSerifDisplay(
-                    color: Colors.black,
-                    fontSize: 35,
-                    height: 35 / 33,
+                    color: Colors.blueAccent.shade200,
+                    fontSize: 40,
+                    height: 40 / 38,
                     fontWeight: FontWeight.bold
                     ),
                   ),
