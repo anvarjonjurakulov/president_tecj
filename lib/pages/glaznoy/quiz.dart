@@ -11,6 +11,7 @@ class _QuizState extends State<Quiz> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 100, 174, 234),
        body: Center(child: Text("riewhreiuhg"),),
     );
   }

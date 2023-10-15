@@ -16,9 +16,9 @@ class _GlazState extends State<Glaz> {
    int _currerntindex=0;
   final List<Widget> _pages= [
 
-    const Main(),
-    const Quiz(),
-    const Info(),
+     Main(),
+     Quiz(),
+     Info(),
   ];
   @override
   Widget build(BuildContext context) {

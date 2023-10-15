@@ -55,8 +55,8 @@ class _HomePageState extends State<HomePage> {
                         " Глазной ",
                         style: TextStyle(
                             color: Colors.white,
-                            fontSize: 20,
-                            height: 22 / 20,
+                            fontSize: 30,
+                            height: 32 / 30,
                             fontWeight: FontWeight.bold),
                       ),
                     ),
@@ -65,120 +65,129 @@ class _HomePageState extends State<HomePage> {
                 const SizedBox(
                   height: 30,
                 ),
-                 Container(
-                    padding: const EdgeInsets.all(30),
+                Container(
+                  padding: const EdgeInsets.all(30),
                   margin: const EdgeInsets.symmetric(horizontal: 50),
-                    decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 4, 129, 232),
-                      borderRadius: BorderRadius.circular(25),
-                      border: Border.all(color: Colors.blueAccent),
-                    ),
-                    child: GestureDetector(
-                      onTap: () => Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const Koja())),
-                      child: const Center(
-                        child: Text(
-                          "   Кожa   ",
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 20,
-                              height: 22 / 20,
-                              fontWeight: FontWeight.bold),
-                        ),
+                  decoration: BoxDecoration(
+                    color: const Color.fromARGB(255, 4, 129, 232),
+                    borderRadius: BorderRadius.circular(25),
+                    border: Border.all(color: Colors.blueAccent),
+                  ),
+                  child: GestureDetector(
+                    onTap: () => Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => const Koja())),
+                    child: const Center(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Text(
+                            " Кожaнный ",
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 30,
+                                height: 32 / 30,
+                                fontWeight: FontWeight.bold),
+                          ),
+                          Text(
+                            "врач",
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 30,
+                                height: 32 / 30,
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ],
                       ),
                     ),
                   ),
-                
+                ),
+
                 const SizedBox(
                   height: 30,
                 ),
-               Container(
-                    padding: const EdgeInsets.all(30),
+                Container(
+                  padding: const EdgeInsets.all(30),
                   margin: const EdgeInsets.symmetric(horizontal: 50),
-                    decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 4, 129, 232),
-                      borderRadius: BorderRadius.circular(25),
-                      border: Border.all(color: Colors.blueAccent),
-                    ),
-                    child: GestureDetector(
-                      onTap: () => Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const Pediator())),
-                      child: const Center(
-                        child: Text(
-                          " Педиатор ",
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 20,
-                              height: 22 / 20,
-                              fontWeight: FontWeight.bold),
-                        ),
+                  decoration: BoxDecoration(
+                    color: const Color.fromARGB(255, 4, 129, 232),
+                    borderRadius: BorderRadius.circular(25),
+                    border: Border.all(color: Colors.blueAccent),
+                  ),
+                  child: GestureDetector(
+                    onTap: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const Pediator())),
+                    child: const Center(
+                      child: Text(
+                        " Педиатор ",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 30,
+                            height: 32 / 30,
+                            fontWeight: FontWeight.bold),
                       ),
                     ),
                   ),
-                
+                ),
+
                 const SizedBox(
                   height: 30,
                 ),
-                 Container(
-                    padding: const EdgeInsets.all(30),
+                Container(
+                  padding: const EdgeInsets.all(30),
                   margin: const EdgeInsets.symmetric(horizontal: 50),
-                    decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 4, 129, 232),
-                      borderRadius: BorderRadius.circular(25),
-                      border: Border.all(color: Colors.blueAccent),
-                    ),
-                    child: GestureDetector(
-                      onTap: () => Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const Terapeft())),
-                      child: const Center(
-                        child: Text(
-                          " Терапефт ",
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 20,
-                              height: 22 / 20,
-                              fontWeight: FontWeight.bold),
-                        ),
+                  decoration: BoxDecoration(
+                    color: const Color.fromARGB(255, 4, 129, 232),
+                    borderRadius: BorderRadius.circular(25),
+                    border: Border.all(color: Colors.blueAccent),
+                  ),
+                  child: GestureDetector(
+                    onTap: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const Terapeft())),
+                    child: const Center(
+                      child: Text(
+                        " Терапевт ",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 30,
+                            height: 32 / 30,
+                            fontWeight: FontWeight.bold),
                       ),
                     ),
                   ),
-                
+                ),
+
                 const SizedBox(
                   height: 30,
                 ),
-               Container(
-                    padding: const EdgeInsets.all(30),
+                Container(
+                  padding: const EdgeInsets.all(30),
                   margin: const EdgeInsets.symmetric(horizontal: 50),
-                    decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 4, 129, 232),
-                      borderRadius: BorderRadius.circular(25),
-                      border: Border.all(color: Colors.blueAccent),
-                    ),
-                    child: GestureDetector(
-                      onTap: () => Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const Ortoped())),
-                      child: const Center(
-                        child: Text(
-                          " Ортопет ",
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 20,
-                              height: 22 / 20,
-                              fontWeight: FontWeight.bold),
-                        ),
+                  decoration: BoxDecoration(
+                    color: const Color.fromARGB(255, 4, 129, 232),
+                    borderRadius: BorderRadius.circular(25),
+                    border: Border.all(color: Colors.blueAccent),
+                  ),
+                  child: GestureDetector(
+                    onTap: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const Ortoped())),
+                    child: const Center(
+                      child: Text(
+                        " Ортопед ",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 30,
+                            height: 32 / 30,
+                            fontWeight: FontWeight.bold),
                       ),
                     ),
                   ),
-                
-               
+                ),
 
                 // ElevatedButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>const Glaz()));}, child:const Text("Глазной")),
                 // const SizedBox(height: 20,),
