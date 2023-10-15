@@ -15,7 +15,7 @@ class _InfoState extends State<Info> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-          backgroundColor: Color.fromARGB(255, 100, 174, 234),
+          backgroundColor: Colors.blue.shade100,
           body: SingleChildScrollView(
             child: Column(
               children: [

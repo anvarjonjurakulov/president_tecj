@@ -28,9 +28,9 @@ class _MainState extends State<Main> {
       child: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: const Text("глазной врач",style: TextStyle(fontSize: 25,color: Colors.black),),
+          title: const Text("Глазной врач",style: TextStyle(fontSize: 30,height:32/30,color: Colors.black),),
           elevation: 0,
-          backgroundColor: Colors.blue.shade300,
+          backgroundColor: Colors.blue.shade100,
 
         ),
         backgroundColor: Colors.blue.shade100,

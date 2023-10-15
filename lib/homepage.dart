@@ -189,7 +189,33 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
-                Container(
+                const SizedBox(height: 30,),
+                // Container(
+                //   padding: const EdgeInsets.all(30),
+                //   margin: const EdgeInsets.symmetric(horizontal: 50),
+                //   decoration: BoxDecoration(
+                //     color: const Color.fromARGB(255, 4, 129, 232),
+                //     borderRadius: BorderRadius.circular(25),
+                //     border: Border.all(color: Colors.blueAccent),
+                //   ),
+                //   child: GestureDetector(
+                //     onTap: () => Navigator.push(
+                //         context,
+                //         MaterialPageRoute(
+                //             builder: (context) => const MyWidget())),
+                //     child: const Center(
+                //       child: Text(
+                //         "     личгый кабинет ",
+                //         style: TextStyle(
+                //             color: Colors.white,
+                //             fontSize: 30,
+                //             height: 32 / 30,
+                //             fontWeight: FontWeight.bold),
+                //       ),
+                //     ),
+                //   ),
+                // ),
+ Container(
                   padding: const EdgeInsets.all(30),
                   margin: const EdgeInsets.symmetric(horizontal: 50),
                   decoration: BoxDecoration(
@@ -198,23 +224,34 @@ class _HomePageState extends State<HomePage> {
                     border: Border.all(color: Colors.blueAccent),
                   ),
                   child: GestureDetector(
-                    onTap: () => Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const MyWidget())),
+                    onTap: () => Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => const MyWidget())),
                     child: const Center(
-                      child: Text(
-                        " личгый кабинет ",
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 30,
-                            height: 32 / 30,
-                            fontWeight: FontWeight.bold),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Text(
+                            " Личгый ",
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 30,
+                                height: 32 / 30,
+                                fontWeight: FontWeight.bold),
+                          ),
+                          Text(
+                            " кабинет ",
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 30,
+                                height: 32 / 30,
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ],
                       ),
                     ),
                   ),
                 ),
-
+                 SizedBox(height: 20,),
                 // ElevatedButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>const Glaz()));}, child:const Text("Глазной")),
                 // const SizedBox(height: 20,),
                 // ElevatedButton(onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context)=>const Koja()));}, child:const Text("Коженный")),
