@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "579027803253",
+    "firebase_url": "https://project-57d88-default-rtdb.firebaseio.com",
+    "project_id": "project-57d88",
+    "storage_bucket": "project-57d88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579027803253:android:60856af2119412afe7ac3c",
+        "android_client_info": {
+          "package_name": "com.example.for_doctor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjNKDX1j5zs7aOZ_j8VR7FDh9mcNX3z6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579027803253:android:6205f5e8b85579b9e7ac3c",
+        "android_client_info": {
+          "package_name": "com.example.president_tech_site"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjNKDX1j5zs7aOZ_j8VR7FDh9mcNX3z6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579027803253:android:59928b5ed2b73c99e7ac3c",
+        "android_client_info": {
+          "package_name": "com.example.prezident_tech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjNKDX1j5zs7aOZ_j8VR7FDh9mcNX3z6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579027803253:android:73471fa82742873ce7ac3c",
+        "android_client_info": {
+          "package_name": "com.example.untitled1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjNKDX1j5zs7aOZ_j8VR7FDh9mcNX3z6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

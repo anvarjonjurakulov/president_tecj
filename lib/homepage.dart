@@ -2,11 +2,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:prezident_tech/pages/glaznoy/main.dart';
-import 'package:prezident_tech/pages/koja/main.dart';
-import 'package:prezident_tech/pages/ortapet/main.dart';
-import 'package:prezident_tech/pages/pediator/main.dart';
-import 'package:prezident_tech/pages/terapeft/main.dart';
+import 'package:prezident_tech/answer.dart';
+import 'package:prezident_tech/pages/glaznoy/main11.dart';
+import 'package:prezident_tech/pages/koja/main1.dart';
+import 'package:prezident_tech/pages/ortapet/main2.dart';
+import 'package:prezident_tech/pages/pediator/main3.dart';
+import 'package:prezident_tech/pages/terapeft/main4.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -179,6 +180,31 @@ class _HomePageState extends State<HomePage> {
                     child: const Center(
                       child: Text(
                         " Ортопед ",
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 30,
+                            height: 32 / 30,
+                            fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                  ),
+                ),
+                Container(
+                  padding: const EdgeInsets.all(30),
+                  margin: const EdgeInsets.symmetric(horizontal: 50),
+                  decoration: BoxDecoration(
+                    color: const Color.fromARGB(255, 4, 129, 232),
+                    borderRadius: BorderRadius.circular(25),
+                    border: Border.all(color: Colors.blueAccent),
+                  ),
+                  child: GestureDetector(
+                    onTap: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const MyWidget())),
+                    child: const Center(
+                      child: Text(
+                        " личгый кабинет ",
                         style: TextStyle(
                             color: Colors.white,
                             fontSize: 30,
